@@ -1,25 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="css/styles.css"/>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to MinWoo Talk</title>
+    <title>Welcome to Kokoa Talk</title>
 </head>
-<body>
+  <body>
     <div class="status-bar">
        <div class="status-bar__column">
         <span>No Service</span>
-        <!--To Do: Wifi Icon-->
+        <i class="fa-solid fa-wifi"></i>
        </div>
        <div class="status-bar__column">
         <span>18:43</span>
        </div>  
        <div class="status-bar__column">
-        <span>11%</span>
-        <!-- Battery Icon -->
-        <!-- Lighting Icon-->
-       </div> 
+        <span>110%</span>
+        <i class="fa-solid fa-battery-full fa-lg"></i><!-- Battery Icon -->
+        <i class="fa-solid fa-bolt"></i><!-- Lighting Icon-->
+       </div>      
     </div>
-</body>
+
+    <header class="welcome-header">
+        <h1 class="welcome-header__title">welcome to Kokoa Clone</h1>
+        <p class="welcome-header__text">
+            If you have a Kokoa Account, log in with your email or phone number
+        </p>   
+    </header>
+    
+    <form id="login-form">
+        <input type="texr" placeholder="Email or phone number">
+        <input type="passwoed" placeholder="Password">
+        <input type="submit" placeholder="Log in">
+        <a href="#">Find Kokoa Account or Password</a>
+    </form>
+
+
+    <script
+      src="https://kit.fontawesome.com/55e1dcffbe.js"
+      crossorigin="anonymous"
+      ></script>
+  </body>
 </html>
